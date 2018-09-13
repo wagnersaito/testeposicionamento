@@ -1,0 +1,45 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1100vh;
+}
+
+#externa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 700px;
+    border: 2px solid orangered;
+    padding: 50px;
+}
+
+.interna{
+    width: 40%;
+    height: 40%;
+    border: 2px dotted blue;
+}
+
+.interna:nth-child(1){
+    background-color: black;
+}
+
+.interna:nth-child(2){
+    background-color: gray;
+    
+}
+
+.interna:nth-child(3){
+    background-color: lightgray;
+
+}
+
+.interna:nth-child(4){
+    background-color: red;
+    
+}
+
